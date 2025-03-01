@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}Thunderbolt Interactive{% endblock %}
+
+{% block body %}
+<div class="title" id="title">
+  <a href="/">
+  <img class="headerImg" src="static/favicon.ico" alt="Favicon">
+  </a>
+  <a href="/">
+    <h1 class="header">Thunderbolt Interactive</h1>
+  </a>
+</div>
+
+
+  <div class="siteRevamp">
+    <h1>Website Revamp Info</h1>
+    <p>At Thunderbolt Interactive, we're excited to announce a revamp of our website to enhance your experience! We're rolling out updates that include tooltips on hover, making navigation more intuitive, and refining the overall user experience (UX) for a smoother and more engaging interface. These improvements aim to make interactions clearer, more efficient, and visually polished while keeping our signature style. Stay tuned as we continue to fine-tune the site to bring you the best experience possible! </p>
+  </div>
+
+  <div class="mainContainer" id="mainContainer">
+    <div class="homeBtn">
+      <button onclick="location.href='/'">Home</button>
+    </div>
+    <div class="gamesBtn">
+      <button onclick="location.href='/games'">Games</button>
+    </div>
+    <div class="softwareBtn">
+      <button onclick="location.href='/software'">Software</button>
+    </div>
+  </div>
+
+
+{% endblock %}
